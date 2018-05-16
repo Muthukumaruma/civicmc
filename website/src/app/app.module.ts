@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { DataService } from './data.service';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -15,7 +16,8 @@ import { DataService } from './data.service';
   declarations: [
     AppComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent
     
     
   ],

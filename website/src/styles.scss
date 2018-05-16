@@ -1,1 +1,310 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+$baseFont :'Source Sans Pro', sans-serif;
+html{
+    height: 100%;
+}
+body{
+    background-image: url(/assets/img/background.jpg);
+    font-family: $baseFont;
+    min-height: 100% !important;
+    position: relative;
+    padding-bottom: 160px;
+    //background: #ccc
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 960px;
+    }
+}
+
+header{
+    width: 100%;
+    -webkit-box-shadow: 0 0 10px #999999;
+    -moz-box-shadow: 0 0 10px #999999;
+    box-shadow: 0 0 10px #999999;
+    position: relative;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+59&0+0,1+83 */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+59&0+0,1+47 */
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 47%, rgba(255,255,255,1) 59%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 47%,rgba(255,255,255,1) 59%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 47%,rgba(255,255,255,1) 59%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    .topbar{
+        color: #14505e;
+        width: 100%;
+        padding: 15px;
+        font-size: 22px;
+    }
+    .phone{
+        text-align: right;
+    }
+    .mainbar{
+        width:100%;
+        margin: 0 auto;
+        padding: 15px;
+        border-radius: 10px 10px 0 0; ;
+        background: rgb(255,255,255);
+        background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(230,229,227,1) 100%);
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(230,229,227,1)));
+        background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%,rgba(230,229,227,1) 100%);
+        background: -o-linear-gradient(left, rgba(255,255,255,1) 0%,rgba(230,229,227,1) 100%);
+        background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%,rgba(230,229,227,1) 100%);
+        background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(230,229,227,1) 100%);
+        //behavior: url(PIE/PIE.htc);
+        -webkit-box-shadow: 0 0 10px #999999;
+        -moz-box-shadow: 0 0 10px #999999;
+        box-shadow: 0 0 10px #999999;
+        position: relative;
+    }
+    a{
+        .logo{
+            color: #14505e;
+            text-align: right;
+            height: 142px;
+            max-width: 460px;
+            background-image:  url(/assets/img/stethescope.png);
+            padding-left: 60px;
+            background-repeat: no-repeat;
+            background-position: 0 0;
+            .name{
+                font-size: 40px;
+                text-transform: uppercase;
+                line-height: 40px;
+            }
+            .sub{
+                font-size: 34px;
+                line-height: 34px;
+            }
+            .others{
+                color: #1c82a8;
+                line-height: 26px;
+                font-size: 22px;
+            }
+        }
+        &:hover{
+            text-decoration: none;
+            color: #ff6307;
+            .name, .sub, .others{
+                color: #ff6307;
+            }
+            .logo{
+                background-position: 0 -150px;
+            }
+        }
+    }
+    
+    .header-right{
+        text-align: right;
+        a{
+            display: block;
+            font-size: 22px;
+            line-height: 35px;
+            .icon{
+                height: 35px;
+                width: 35px;
+                display: inline-block;
+                border-radius: 50%;
+                margin-left: 10px;
+                border: 2px solid #fff;
+                background-color: #ff6307;
+                margin-top: 5px;
+                color: #fff;
+                
+            }
+            &:first-of-type{
+                color: #ff6307;
+            }
+            &:nth-of-type(2){
+                color: #c71b64;
+                .icon{
+                    background-color: #c71b64;
+                }
+            }
+            &:nth-of-type(3){
+                color: #5a941e;
+                .icon{
+                    background-color: #5a941e;
+                }
+            }
+            &:hover{
+                font-style: italic;
+                &:first-of-type{
+                    color: #ff6307;
+                }
+                &:nth-of-type(2){
+                    color: #c71b64;
+                }
+                &:nth-of-type(3){
+                    color: #5a941e;
+                }
+            }//hover
+        }
+    }
+    .nav-inner{
+        margin: -15px;
+        padding: 0px 3px;
+        margin-top: 7px;
+        ul{
+            padding: 0px;
+            margin: 0px;
+            display: table;
+            width: 100%;
+            li{
+                list-style: none;
+                display: table-cell;
+                border-top: 2px solid transparent;
+                border-right: 2px solid transparent;
+                border-left: 2px solid transparent;
+                border-bottom: none;
+                color: #ffffff;
+                
+                &:first-child{
+                    a{
+                        background: #ff660a;
+                        background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ff660a), to(#DF5A0A));
+                        background: -webkit-linear-gradient(#ff660a, #DF5A0A);
+                        background: -moz-linear-gradient(#ff660a, #DF5A0A);
+                        background: -ms-linear-gradient(#ff660a, #DF5A0A);
+                        background: -o-linear-gradient(#ff660a, #DF5A0A);
+                        background: linear-gradient(#ff660a, #DF5A0A);
+                        -pie-background: linear-gradient(#ff660a, #DF5A0A);
+                        -webkit-transition: all 0.25s ease-in-out;
+                        -moz-transition: all 0.25s ease-in-out;
+                        -ms-transition: all 0.25s ease-in-out;
+                        transition: all 0.25s ease-in-out;
+                        padding: 0 3px;
+                    }
+                    
+                }
+                &:nth-child(2){
+                    a{
+                        background: #76c02b;
+                        background: -webkit-gradient(linear, 0 0, 0 bottom, from(#76c02b), to(#67a725));
+                        background: -webkit-linear-gradient(#76c02b, #67a725);
+                        background: -moz-linear-gradient(#76c02b, #67a725);
+                        background: -ms-linear-gradient(#76c02b, #67a725);
+                        background: -o-linear-gradient(#76c02b, #67a725);
+                        background: linear-gradient(#76c02b, #67a725);
+                        -pie-background: linear-gradient(#76c02b, #67a725);
+                        -webkit-transition: all 0.25s ease-in-out;
+                        -moz-transition: all 0.25s ease-in-out;
+                        -ms-transition: all 0.25s ease-in-out;
+                        transition: all 0.25s ease-in-out;
+                    }
+                    
+                }
+                &:nth-child(3){
+                    a{
+                        background: #02a3d1;
+                        background: -webkit-gradient(linear, 0 0, 0 bottom, from(#02a3d1), to(#0188af));
+                        background: -webkit-linear-gradient(#02a3d1, #0188af);
+                        background: -moz-linear-gradient(#02a3d1, #0188af);
+                        background: -ms-linear-gradient(#02a3d1, #0188af);
+                        background: -o-linear-gradient(#02a3d1, #0188af);
+                        background: linear-gradient(#02a3d1, #0188af);
+                        -pie-background: linear-gradient(#02a3d1, #0188af);
+                        -webkit-transition: all 0.25s ease-in-out;
+                        -moz-transition: all 0.25s ease-in-out;
+                        -ms-transition: all 0.25s ease-in-out;
+                        transition: all 0.25s ease-in-out;
+                    }
+                    
+                }
+                &:nth-child(4){
+                    a{
+                        background: #5b1bc7;
+                        background: -webkit-gradient(linear, 0 0, 0 bottom, from(#5b1bc7), to(#4c17ab));
+                        background: -webkit-linear-gradient(#5b1bc7, #4c17ab);
+                        background: -moz-linear-gradient(#5b1bc7, #4c17ab);
+                        background: -ms-linear-gradient(#5b1bc7, #4c17ab);
+                        background: -o-linear-gradient(#5b1bc7, #4c17ab);
+                        background: linear-gradient(#5b1bc7, #4c17ab);
+                        -pie-background: linear-gradient(#5b1bc7, #4c17ab);
+                        -webkit-transition: all 0.25s ease-in-out;
+                        -moz-transition: all 0.25s ease-in-out;
+                        -ms-transition: all 0.25s ease-in-out;
+                        transition: all 0.25s ease-in-out;
+                    }
+                    
+                }
+                &:nth-child(5){
+                    a{
+                        background: #c71b64;
+                        background: -webkit-gradient(linear, 0 0, 0 bottom, from(#c71b64), to(#a11551));
+                        background: -webkit-linear-gradient(#c71b64, #a11551);
+                        background: -moz-linear-gradient(#c71b64, #a11551);
+                        background: -ms-linear-gradient(#c71b64, #a11551);
+                        background: -o-linear-gradient(#c71b64, #a11551);
+                        background: linear-gradient(#c71b64, #a11551);
+                        -pie-background: linear-gradient(#c71b64, #a11551);
+                        -webkit-transition: all 0.25s ease-in-out;
+                        -moz-transition: all 0.25s ease-in-out;
+                        -ms-transition: all 0.25s ease-in-out;
+                        transition: all 0.25s ease-in-out;
+                    }
+                    
+                }
+                &:nth-child(6){
+                    a{
+                        background: #0228ea;
+                        background: -webkit-gradient(linear, 0 0, 0 bottom, from(#0228ea), to(#021eab));
+                        background: -webkit-linear-gradient(#0228ea, #021eab);
+                        background: -moz-linear-gradient(#0228ea, #021eab);
+                        background: -ms-linear-gradient(#0228ea, #021eab);
+                        background: -o-linear-gradient(#0228ea, #021eab);
+                        background: linear-gradient(#0228ea, #021eab);
+                        -pie-background: linear-gradient(#0228ea, #021eab);
+                        -webkit-transition: all 0.25s ease-in-out;
+                        -moz-transition: all 0.25s ease-in-out;
+                        -ms-transition: all 0.25s ease-in-out;
+                        transition: all 0.25s ease-in-out;
+                    }
+                }
+                a{
+                    display: block;
+                    padding: 0;
+                    color: #ffffff;
+                    font-size: 20px;
+                    text-decoration: none;
+                    text-align: center;
+                    text-transform: uppercase;
+                    position: relative;
+                    line-height: 48px;
+                    -webkit-border-radius: 5px 5px 0 0;
+                    -moz-border-radius: 5px 5px 0 0;
+                    border-radius: 5px 5px 0 0;
+                }
+            }
+        }
+    }//nav-inner
+}
+.shaddow-top {
+    box-shadow: 0 -5px 5px -5px #333;
+}
+
+.shaddow-right {
+    box-shadow: 5px 0 5px -5px #333;
+}
+
+.shaddow-bottom {
+    box-shadow: 0 5px 5px -5px #333;
+}
+
+.shaddow-left {
+    box-shadow: -5px 0 5px -5px #333;
+}
+
+.shaddow-all {
+    box-shadow: 0 0 5px #333;
+}
+app-footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+
+}
