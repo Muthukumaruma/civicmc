@@ -1,0 +1,9 @@
+dots.middle{
+    display: none !important;
+}
+.arrow{
+    &:before, &::after{
+        background: #ccc;
+        width: 20px;
+    }
+}

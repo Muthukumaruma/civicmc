@@ -1,48 +1,64 @@
-
-<header>
+<div class="header_top" id="top_head">
   <div class="container">
-      <div class="topbar">
-        <div class="row ">
-            <div class="col-md-7">{{navData.address}}</div>
-            <div class="col-md-5 phone">{{navData.phone}}</div>
-        </div>
-          
-        </div> 
-        <!-- /topbar -->
-        <div class="mainbar ">
-          <div class="row">
-              <div class="col-md-7">
-                <a href="">
-                  <div class="logo">
-                    <div class="name"> {{navData.appName}}</div>
-                    <div class="sub"> {{navData.appName}}</div>
-                    <div class="others"> {{navData.appName}}</div>
-                  </div>
-                  </a>
-                </div><!-- /colmd-7 -->
-                
-                <div class="col-md-5">
-                  <div class="header-right">
-                    <a >Book an Appointment <div class="icon"></div> </a>
-                    <a >Access Patient Portal <div class="icon"></div> </a>
-                    <a >Online Bill Pay <div class="icon"></div> </a>
-                  </div>
-                </div>
-          </div>
-          <!-- /row -->
-          <div class="nav-inner">
-            <ul>
-              <li><a>Home</a></li>
-              <li><a>Medical Services</a></li>
-              <li><a>Meet Our Medical Team</a></li>
-              <li><a>Patient Center</a></li>
-              <li><a>Location</a></li>
-              <li><a>Contact Us</a></li>
-            </ul>
-          </div>
-        </div><!-- /mainbar -->
-        
+    <div class="row">
+      <div class="col-md-6 col-sm-7 topheader_left">
+        <span>
+        <i class="fa fa-phone" aria-hidden="true"></i>
+        <a href="callto:{{navData.phone}}">{{navData.phone}}</a>
+        </span>
+        <span>
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        <a >{{navData.address}}</a>
+        </span>
+      </div>
+      <div class="col-md-6 col-sm-5 topheader_right">
+        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Book an Appointment</a>
+        <a href="#"><i class="fa fa-skype" aria-hidden="true"></i> Access Patient Portal</a>
+        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>Online Bill Pay</a>
+
+      </div>
+    </div>
   </div>
-  
-</header>
-<!-- /header -->
+</div>
+
+
+
+<div id="undefined-sticky-wrapper" class="sticky-wrapper" style="height: 88px;"><div class="menubar_area sticky_area" style="">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2 brand_logo">
+        <a ><h3>CIVICMC</h3></a>
+      </div>
+      <div class="col-sm-10 main_menu">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a routerLink="home">Home</a></li>
+            <li><a>Medical Services</a></li>
+            <li><a>Meet Our Medical Team</a></li>
+            <li><a>Patient Center</a></li>
+            <li><a>PLocation</a></li>
+            <li><a>Contact Us</a></li>
+            <!-- <li>
+              <a>Services <span class="span_one">&gt;</span></a>
+              <ul>
+                <li><a>service</a></li>
+                <li><a>Services-Details</a></li>
+              </ul>
+            </li> -->
+            
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div></div>

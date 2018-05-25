@@ -9,6 +9,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { DataService } from './data.service';
 import { HomeComponent } from './home/home.component';
+import { NewsComponent } from './news/news.component';
+import { UICarouselModule } from "ui-carousel";
+import { NewsdetailComponent } from './news/newsdetail/newsdetail.component';
 
 
 
@@ -17,14 +20,17 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    NewsComponent,
+    NewsdetailComponent
     
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    UICarouselModule
   ],
   providers: [DataService],
   bootstrap: [AppComponent],
