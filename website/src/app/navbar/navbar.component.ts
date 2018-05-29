@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-//import { DataService } from '../data.service';
+import { ActivatedRoute } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
@@ -10,8 +10,13 @@ import { HttpClient } from '@angular/common/http';
 export class NavbarComponent implements OnInit {
 
   navData:any = [];
+  activeRoute:any;
 
-  constructor(private http:HttpClient) { }
+  constructor(private route: ActivatedRoute, private http:HttpClient) {
+
+    //this.route.params.subscribe(params => {this.activeRoute = params.id})
+
+   }
 
   ngOnInit() {
     this.getData()

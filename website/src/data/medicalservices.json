@@ -1,0 +1,55 @@
+{
+    
+    "servicedata":[
+        {
+            "id":"1",
+            "service":"Annual Examinations",
+            "detail":"<p>Regular health exams and tests can help find problems before they start. They also can help find problems early, when your chances for treatment and cure are better. Which exams and screenings you need depends on your age, health and family history, and lifestyle choices such as what you eat, how active you are, and whether you smoke.</p><p>To make the most of your next check-up, here are some things to do before you go:</p><ul><li>Review your family health history</li><li>Find out if you are due for any general screenings or vaccinations</li><li>Write down a list of issues and questions to take with you</li></ul>"
+        },
+        {
+            "id":"2",
+            "service":"Wellness Plans",
+            "detail":"<p>What better way to stay healthy than to prevent health issues in the first place?  You and your healthcare provider can work as a team to keep you healthy by reviewing your</p><ul> <li>Immunization records</li> <li>Exercise routines</li> <li>Nutritional needs</li> <li>Psychosocial wellness</li> </ul>"
+        },
+        {
+            "id":"3",
+            "service":"Adult Immunizations",
+            "detail":"<p>Shots may hurt a little, but the diseases they can prevent are a lot worse. Some are even life-threatening. Immunization shots, or vaccinations, are essential. They protect against things like measles, mumps, rubella, hepatitis B, polio, diphtheria, tetanus, and pertussis (whooping cough). Immunizations are important for adults as well as children.</p><p>Your immune system helps your body fight germs by producing substances to combat them. Once it does, the immune system &#34 remembers &#34  the germ and can fight it again. Vaccines contain germs that have been killed or weakened. When given to a healthy person, the vaccine triggers the immune system to respond and thus build immunity.</p><p>Before vaccines, people became immune only by actually getting a disease and surviving it. Immunizations are an easier and less risky way to become immune. </p><p>See the CDC's <a href='immunizations.php' title='Center for Disease Control and Prevition Adult Immuniation Schedule'>adult immunization schedule here</a>.</p>"
+        },
+        {
+            "id":"4",
+            "service":"Women's Health",
+            "detail":"<p>Women have unique health issues. And some of the health issues that affect both men and women can affect women differently.</p><p>Unique issues include pregnancy, menopause, and conditions of the female organs. Women can have a healthy pregnancy by getting early and regular prenatal care. They should also get recommended breast cancer, cervical cancer, and bone density screenings.</p><p>Women and men also have many of the same health problems. But these problems can affect women differently. For example,</p><ul> <li>Women are more likely to die following a heart attack than men</li> <li>Women are more likely to show signs of depression and anxiety than men</li> <li>The effects of sexually transmitted diseases can be more serious in women</li> <li>Osteoarthritis affects more women than men</li> <li>Women are more likely to have urinary tract problems</li> </ul>"
+        },
+        {
+            "id":"4",
+            "service":"Weight Management",
+            "detail":"<p>If you are overweight, you are not alone.  About two-thirds of adults in the U.S. are overweight or obese.</p><p>There are a lot of weight loss diets, but many of them only work temporarily because people start and stop them repeatedly. A successful weight management program allows overweight people to lose weight and keep from gaining it back.</p> <p>Talk with your health care provider about focusing on eating healthy, exercising, and tips for getting started.</p> <p>Download the <a href='http://www.nlm.nih.gov/medlineplus/tutorials/weightmanagement/hp189102.pdf' target='_blank' title='>Weight Management Summary</a> from the National Institutes of Health.</p>"
+        },
+        {
+            "id":"5",
+            "service":"Medication Management",
+            "detail":"<p>As internists, much of our medical therapy is through the use of prescription medications. We strive to explain to you the rationale for our prescriptions and how to take them properly. We ask that you follow these directions as well as those of your pharmacist.</p> <p>If you think you are having problems with any medication or if it is ineffective for your condition, please call us.</p> <p>If you take more than three medications or if you receive additional prescriptions from other doctors, please bring all your medications to your clinic appointments in their original containers. This helps us to keep track of how you are using the drugs and if there is any potential for adverse drug-drug interactions. </p>"
+        },
+        {
+            "id":"6",
+            "service":"Diabetes Education",
+            "detail":"<p>Diabetes is a disease in which your blood glucose, or blood sugar, levels are too high. Glucose comes from the foods you eat. Insulin is a hormone that helps the glucose get into your cells to give them energy. With type 1 diabetes, your body does not make insulin. With type 2 diabetes, the more common type, your body does not make or use insulin well. Without enough insulin, the glucose stays in your blood.</p> <p>Over time, having too much glucose in your blood can cause serious problems. It can damage your eyes, kidneys, and nerves. Diabetes can also cause heart disease, stroke and even the need to remove a limb. Pregnant women can also get diabetes, called gestational diabetes.</p> <p>A blood test can show if you have diabetes. Exercise, weight control and sticking to your meal plan can help control your diabetes. You should also monitor your glucose level and take medicine if prescribed. </p>"
+        },
+        {
+            "id":"7",
+            "service":"Hypertension",
+            "detail":"<p>Hypertension is also known as high blood pressure.  Blood pressure is the force of your blood pushing against the walls of your arteries. Each time your heart beats, it pumps blood into the arteries. Your blood pressure is highest when your heart beats, pumping the blood. This is called systolic pressure. When your heart is at rest, between beats, your blood pressure falls. This is called diastolic pressure.</p> <p>Your blood pressure reading uses these two numbers. Usually the systolic number comes before or above the diastolic number. A reading of</p> <ul> <li>119/79 or lower is normal blood pressure</li> <li>140/90 or higher is high blood pressure</li> <li>Between 120 and 139 for the top number, or between 80 and 89 for the bottom number is called prehypertension. Prehypertension means you may end up with high blood pressure, unless you take steps to prevent it.</li> </ul> <p>High blood pressure usually has no symptoms, but it can cause serious problems such as stroke, heart failure, heart attack and kidney failure.</p><p>You can control high blood pressure through healthy lifestyle habits and taking medicines, if needed. </p>"
+        },
+        {
+            "id":"8",
+            "service":"geriatrics",
+            "detail":"<p>Americans are living longer and healthier lives. Even so, many older adults can develop medical problems known as geriatric syndromes.  These geriatric syndromes can have more than one cause and may involve more than one part of the body.  Often, one syndrome can contribute to another, and this makes medical care for older people more complicated. Your healthcare professionals can play an important role in diagnosing and managing syndromes.</p> <p>Geriatric syndromes may include:</p> <div class='row'><ul class='col-md-6'> <li>difficulty swallowing</li> <li>malnutrition</li> <li>bladder control problems</li> <li>sleep issues</li> <li>delirium and dementia</li> <li>vison and hearing problems</li> </ul> <ul class='col-md-6'> <li>dizziness and fainting</li> <li>difficulty walking</li> <li>falls</li> <li>pressure ulcers</li> <li>osteoporosis</li> </ul> </div>"
+        },
+        {
+            "id":"9",
+            "service":"Arthritis",
+            "detail":"<p>If you feel pain and stiffness in your body or have trouble moving around, you might have arthritis. Most kinds of arthritis cause pain and swelling in your joints. Joints are places where two bones meet, such as your elbow or knee. Over time, a swollen joint can become severely damaged. Some kinds of arthritis can also cause problems in your organs, such as your eyes or skin.</p> <p>Types of arthritis include</p> <ul> <li>Osteoarthritis is the most common type of arthritis. It's often related to aging or to an injury.</li> <li>Autoimmune arthritis happens when your body's immune system attacks healthy cells in your body by mistake. Rheumatoid arthritis is the most common form of this kind of arthritis. Juvenile rheumatoid arthritis is a form of the disease that happens in children.</li> <li>Infectious arthritis is an infection that has spread from another part of the body to the joint.</li> <li>Psoriatic arthritis affects people with psoriasis.</li> <li>Gout is a painful type of arthritis that happens when too much uric acid builds up in the body. It often starts in the big toe.</li> </ul>"
+        }
+    ]
+}

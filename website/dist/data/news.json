@@ -1,0 +1,19 @@
+{
+    "news":[
+        {   
+            "id":"1",
+            "title":"News Website",
+            "description":"We are pleased to announce the launch of our new website. Here you can learn more about each of our providers, learn about the types of services we provide, and find a map and driving directions to our office."
+        },
+        {
+            "id":"2",
+            "title":"News Test1",
+            "description":"ajshdkjhasjdhj"
+        },
+        {
+            "id":"3",
+            "title":"News Test",
+            "description":"ajshdkjhasjdhj"
+        }
+    ]
+}

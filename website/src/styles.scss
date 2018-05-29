@@ -6,8 +6,8 @@
     Version: 2.0
 -----------------------------------------------------------------------------------*/
 @import "~bootstrap/dist/css/bootstrap.css";
-
 @import "/assets/scss/multiplecolor.scss";
+@import "/assets/scss/responsive.css";
 
 body {
   font-size: 14px;
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
-}
+} 
 
 p {
   font-family: 'Poppins', sans-serif;
@@ -79,8 +79,6 @@ a {
     color: hsl(0, 0%, 38%);
     font-size: 14px;
     line-height: 26px;
-    margin: 0 auto 75px;
-    width: 47%;
   }
 }
 
@@ -321,6 +319,13 @@ a {
     }
     h3{
         color: #fff !important;
+        font-weight: bold;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+    }
+    .subtitle{
+      color: #fff;
     }
 }
 
@@ -1492,13 +1497,36 @@ a {
 }
 
 .about-us-right {
-  margin-left: 43px;
-  > {
+  margin-top: 20px;
+  font-size: 14px;
     h3 {
       color: #222222;
       font-size: 28px;
       font-weight: 700;
       margin-top: -5px;
+      text-align: justify;
+    }
+    h4 {
+      color: #222222;
+      font-size: 22px;
+      font-weight: 700;
+      text-align: justify;
+    }
+    h5 {
+      font-size: 18px;
+      font-weight: 700;
+      text-align: justify;
+    }
+    .image{
+      padding: 5px;
+      border: 1px solid #ccc;
+      width: 180px;
+      float: left;
+      margin-right: 15px;
+      margin-bottom: 15px;
+      img{
+        width: 100%;
+      }
     }
     p {
       color: hsl(0, 0%, 38%);
@@ -1507,7 +1535,6 @@ a {
       line-height: 27px;
       margin-top: 20px;
     }
-  }
 }
 
 .about-us-bottom {
@@ -1531,7 +1558,8 @@ a {
 }
 
 .awesome-team-member-img > img {
-  width: auto;
+  width: 85px;
+
 }
 
 .awesome-team-member-top > h1 {
@@ -2511,10 +2539,11 @@ a {
     margin-top: 30px;
 }
 ui-carousel{
-    max-height: 190px;
+    max-height: 230px;
     ui-carousel-item{
         div.ui-carousel-item{
             background-color: transparent !important;
+            position: relative;
            
             .news-container{
                 height: 115px;
@@ -2525,8 +2554,39 @@ ui-carousel{
                 -webkit-box-orient: vertical;
                 overflow: hidden;
                 text-overflow: ellipsis;
+                color: #616161;
+                font-size: 14px;  
+                font-family: 'Poppins', sans-serif;
+                padding: 0px 15px;
+               
+                a{
+                  display: inline-block;
+                  position: absolute;
+                  right: 15px;
+                  bottom: 15px;
+                  &:hover{
+                    color:#222222;
+                  }
+                }
+            }
+            .newsi{
+              h3{
+                font-size: 18px;
+                font-weight: 700;
+              }
             }
         }
     }
     
+}
+.servicehtml{
+  ul li{
+    list-style: none;
+    padding-left: 15px;
+    &:before{
+      content: "\f00c";
+      font-family: FontAwesome;
+      margin-right: 5px;
+    }
+  }
 }

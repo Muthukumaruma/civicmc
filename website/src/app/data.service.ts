@@ -12,7 +12,7 @@ export class DataService {
   }
 
   public getJSON(): Observable<any> {
-      return this.http.get("./data/data.json")
+      return this.http.get("./data/medicalservices.json")
   }
 
 }

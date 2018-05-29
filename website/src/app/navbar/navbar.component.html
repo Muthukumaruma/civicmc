@@ -7,14 +7,14 @@
         <a href="callto:{{navData.phone}}">{{navData.phone}}</a>
         </span>
         <span>
-        <i class="fa fa-envelope" aria-hidden="true"></i>
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
         <a >{{navData.address}}</a>
         </span>
       </div>
       <div class="col-md-6 col-sm-5 topheader_right">
-        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Book an Appointment</a>
-        <a href="#"><i class="fa fa-skype" aria-hidden="true"></i> Access Patient Portal</a>
-        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>Online Bill Pay</a>
+        <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> Book an Appointment</a>
+        <a href="#"><i class="fa fa-globe " aria-hidden="true"></i> Access Patient Portal</a>
+        <a href="#"><i class="fa fa-credit-card  " aria-hidden="true"></i> Online Bill Pay</a>
 
       </div>
     </div>
@@ -26,10 +26,13 @@
 <div id="undefined-sticky-wrapper" class="sticky-wrapper" style="height: 88px;"><div class="menubar_area sticky_area" style="">
   <div class="container">
     <div class="row">
-      <div class="col-sm-2 brand_logo">
-        <a ><h3>CIVICMC</h3></a>
+      <div class="col-sm-3 brand_logo">
+        <a routerLink="/">
+          <h3>{{navData.appName}}</h3>
+          <span class="subtitle">{{navData.doctor}}</span>
+        </a>
       </div>
-      <div class="col-sm-10 main_menu">
+      <div class="col-sm-9 main_menu">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="sr-only">Toggle navigation</span>
@@ -41,11 +44,11 @@
 
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li><a routerLink="home">Home</a></li>
-            <li><a>Medical Services</a></li>
-            <li><a>Meet Our Medical Team</a></li>
-            <li><a>Patient Center</a></li>
-            <li><a>PLocation</a></li>
+            <li [ngClass]="{'active':activeRoute==='home'}"><a routerLink="/">Home</a></li>
+            <li><a routerLink="/services">Medical Services</a></li>
+            <li><a routerLink="/team">Meet Our Medical Team</a></li>
+            <li><a routerLink="/patientcenter">Patient Center</a></li>
+            <li><a>Location</a></li>
             <li><a>Contact Us</a></li>
             <!-- <li>
               <a>Services <span class="span_one">&gt;</span></a>

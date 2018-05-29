@@ -12,6 +12,10 @@ import { HomeComponent } from './home/home.component';
 import { NewsComponent } from './news/news.component';
 import { UICarouselModule } from "ui-carousel";
 import { NewsdetailComponent } from './news/newsdetail/newsdetail.component';
+import { MedservicesComponent } from './medservices/medservices.component';
+import { ServicedetailComponent } from './medservices/servicedetail/servicedetail.component';
+import { TeamComponent } from './team/team.component';
+import { PatientcenterComponent } from './patientcenter/patientcenter.component';
 
 
 
@@ -22,7 +26,11 @@ import { NewsdetailComponent } from './news/newsdetail/newsdetail.component';
     FooterComponent,
     HomeComponent,
     NewsComponent,
-    NewsdetailComponent
+    NewsdetailComponent,
+    MedservicesComponent,
+    ServicedetailComponent,
+    TeamComponent,
+    PatientcenterComponent
     
     
   ],
@@ -30,7 +38,7 @@ import { NewsdetailComponent } from './news/newsdetail/newsdetail.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    UICarouselModule
+    UICarouselModule,
   ],
   providers: [DataService],
   bootstrap: [AppComponent],
