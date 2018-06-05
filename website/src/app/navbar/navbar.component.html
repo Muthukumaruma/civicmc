@@ -12,9 +12,9 @@
         </span>
       </div>
       <div class="col-md-6 col-sm-5 topheader_right">
-        <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> Book an Appointment</a>
-        <a href="#"><i class="fa fa-globe " aria-hidden="true"></i> Access Patient Portal</a>
-        <a href="#"><i class="fa fa-credit-card  " aria-hidden="true"></i> Online Bill Pay</a>
+        <a a routerLink="/appoinment"><i class="fa fa-clock-o" aria-hidden="true"></i> Book an Appointment</a>
+        <a routerLink="/accesspoint"><i class="fa fa-globe " aria-hidden="true"></i> Access Patient Portal</a>
+        <a routerLink="/payment"><i class="fa fa-credit-card  " aria-hidden="true"></i> Online Bill Pay</a>
 
       </div>
     </div>
@@ -26,13 +26,14 @@
 <div id="undefined-sticky-wrapper" class="sticky-wrapper" style="height: 88px;"><div class="menubar_area sticky_area" style="">
   <div class="container">
     <div class="row">
-      <div class="col-sm-3 brand_logo">
+      <div class="col-sm-4 brand_logo">
         <a routerLink="/">
-          <h3>{{navData.appName}}</h3>
-          <span class="subtitle">{{navData.doctor}}</span>
+          <h3>{{navData.doctor}}</h3>
+          <div class="subtitle"><strong>{{navData.appName}} </strong></div>
+          <div class="subtitle">Internal Medicine</div>
         </a>
       </div>
-      <div class="col-sm-9 main_menu">
+      <div class="col-sm-8 main_menu">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="sr-only">Toggle navigation</span>
@@ -48,8 +49,8 @@
             <li><a routerLink="/services">Medical Services</a></li>
             <li><a routerLink="/team">Meet Our Medical Team</a></li>
             <li><a routerLink="/patientcenter">Patient Center</a></li>
-            <li><a>Location</a></li>
-            <li><a>Contact Us</a></li>
+            <li><a routerLink="/location">Location</a></li>
+            <li><a routerLink="/contact">Contact Us</a></li>
             <!-- <li>
               <a>Services <span class="span_one">&gt;</span></a>
               <ul>

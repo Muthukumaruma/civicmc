@@ -9,10 +9,25 @@
 
 <div class="about-us-right" *ngIf="url === '/services'">
   <h3>MEDICAL <span>SERVICES</span> </h3>
-  <p>In today's complex world, we aim to take care of our patients for life - in the office or clinic, during hospitalization and intensive care, and in nursing homes. When other medical specialists, such as surgeons or obstetricians, are involved, we coordinate their care for our patients and manage difficult medical problems associated with that care. In fact, we so often serve as medical consultants to physicians in other specialties that we've earned the nickname, "the doctor's doctor."</p>
-  <h5>Some Services We Provide</h5>
-  <div *ngFor="let medserdet of serviceList.servicedata">
-    <h4>{{medserdet.service}}</h4>
-    <div class="servicehtml" [innerHTML]="medserdet.detail"></div>
+  <div class="row">
+    <div class="col-md-9">
+        <p>In today's complex world, we aim to take care of our patients for life - in the office or clinic, during hospitalization and intensive care, and in nursing homes. When other medical specialists, such as surgeons or obstetricians, are involved, we coordinate their care for our patients and manage difficult medical problems associated with that care. In fact, we so often serve as medical consultants to physicians in other specialties that we've earned the nickname, "the doctor's doctor."</p>
+        <h5>Some Services We Provide</h5>
+        <div *ngFor="let medserdet of serviceList.servicedata">
+          <h4>{{medserdet.service}}</h4>
+          <div class="servicehtml" [innerHTML]="medserdet.detail"></div>
+        </div>
+
+    </div>
+    <div class="col-md-3">
+        <div class="servicees static">
+          <h3>Related Links</h3>
+          <ul class="medical-service">
+            <li><a routerLink="/patient-education"><i class="fa fa-arrow-right"></i> Patient Education</a></li>
+            <li><a routerLink="/immunizations"><i class="fa fa-arrow-right"></i> Immunizations</a></li> 
+          </ul>
+        </div>
+    </div>
   </div>
+  
 </div>

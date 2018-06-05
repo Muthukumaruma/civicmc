@@ -1,0 +1,9 @@
+<div class="servicees" >
+  <h3>Related Links</h3>
+  <ul class="medical-service">
+    <li *ngFor="let link of linksList.links">
+      <a routerLink="{{link.path}}" ><i class="fa fa-arrow-right" aria-hidden="true"></i> {{link.title}}</a>
+    </li>
+  </ul>  
+</div>
+

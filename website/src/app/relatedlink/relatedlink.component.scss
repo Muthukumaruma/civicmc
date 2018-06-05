@@ -1,0 +1,26 @@
+.servicees{
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    h3{
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 5px;
+    }
+}
+.medical-service{
+    li{
+        list-style: none;
+        margin-bottom: 10px;
+        a{
+            color: #13a1b4;
+            font-size: 16px;
+            font-style: italic;
+            font-weight: 600;
+            line-height: 27px;
+        }
+    }
+}

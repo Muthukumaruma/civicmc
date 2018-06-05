@@ -7,13 +7,8 @@
         },
         {
             "id":"2",
-            "title":"News Test1",
-            "description":"ajshdkjhasjdhj"
-        },
-        {
-            "id":"3",
-            "title":"News Test",
-            "description":"ajshdkjhasjdhj"
+            "title":"PATIENT PORTAL",
+            "description":"Use our patient portal to request an appointment, complete many patient forms, request a prescription refill, access your medical history, access your lab reports, or send a secure message to our office."
         }
     ]
 }
