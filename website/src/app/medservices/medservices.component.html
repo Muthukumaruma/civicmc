@@ -15,7 +15,7 @@
         <h5>Some Services We Provide</h5>
         <div *ngFor="let medserdet of serviceList.servicedata">
           <h4>{{medserdet.service}}</h4>
-          <div class="servicehtml" [innerHTML]="medserdet.detail"></div>
+          <div class="servicehtml" [innerHTML]="medserdet.detail | safehtml"></div>
         </div>
 
     </div>

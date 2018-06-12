@@ -10,7 +10,11 @@
               <li>Discover</li>
               <li>American Express</li>
             </ul><p></p>
-            <a class="btn btn-primary" href="https://www.phreesia.net/eap/patient/Payment.aspx/Start" target="_blank">Make a Payment</a>
+            <form id="phreesia_payForm" name="phreesia_payForm" class="phreesia_payForm phreesia_payForm_sm phreesia_payForm_sm_orange" action="https://www.phreesia.net/eap/patient/Payment.aspx/Start" method="post" target="_blank">
+              <input type="hidden" name="encrypted" value="HAZsjTGGLBWsIOzKerdu05HXEkhuEoRH5fbXi2Bci2WybLY8aM1zNEsGoZyR1cgfcWs6edofivuVlWDhS3HUgyywsLJ81S33m2bm_RtYhn28Q-FMuZvf2cVYspSwG5b_LkItQHHbSsXPy98tDYIfWO52xeW_4wKHhBtK19ZJIfLJ-C99ljJdqH4PF5b7aV0YtyYbvURV3bFH2wpPIxm51g8cJnORm1QVMmSpD-Tz5mLxLtyupoHZnysGCI_joHAm8W0YWT1JNcMhlMNdzKfnz1xSrNEhqVLYpDBeoEX4wjetDrIzSpeOkCVLScy1Miw4iGN0pVU5GQei9sum009RepT2gATpV2uqdnWkI9gwn2bWDNFR4myq_W2GO94cqrn90">
+              <a class="btn btn-primary" id="phreesia-link" href="javascript:void(0);" onclick="javascript:document.getElementById('phreesia_payForm').submit();">Make a Payment</a>
+              </form>
+            
       </div>
       <div class="col-md-4">
           <app-relatedlink></app-relatedlink>

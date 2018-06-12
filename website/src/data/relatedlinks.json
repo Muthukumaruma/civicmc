@@ -32,13 +32,8 @@
         },
         {
             "id":"7",
-            "title":"Privacy",
-            "path":"/privacy"
-        },
-        {
-            "id":"8",
-            "title":"Sitemap",
-            "path":"/sitemap"
+            "title":"Terms and conditions",
+            "path":"/terms"
         }
         
     ]

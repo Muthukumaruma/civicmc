@@ -1,6 +1,6 @@
-<section class="case_area">
+<section class="case_area home-section">
     <div class="container">
-      <div class="row">
+      <div class="row hidden-xs hidden-sm" >
         <!--START SINGLE Case AREA-->
         <div class="col-sm-3 col-xs-12 pointer" routerLink="/services">
           <div class="single_case text-center">
@@ -56,6 +56,41 @@
       <div class="col-sm-4">
        <app-medservices></app-medservices>
       </div>
+    </div>
+
+    <div class="row hidden-md hidden-lg">
+      <!--START SINGLE Case AREA-->
+      <div class="col-sm-3 col-xs-12 pointer" routerLink="/services">
+        <div class="single_case text-center">
+          <img src="assets/img/md-service.png" alt="">
+          <h4 class="single_case_text">Medical Services<br> </h4>
+        </div>
+      </div>
+      <!--/END SINGLE Case AREA-->
+      <!--START SINGLE Case AREA-->
+      <div class="col-sm-3 col-xs-12 pointer" routerLink="/team">
+        <div class="single_case text-center ">
+          <img src="assets/img/service-4.png" alt="">
+          <h4 class="single_case_text">Medical Team <br> </h4>
+        </div>
+      </div>
+      <!--/END SINGLE Case AREA-->
+      <!--START SINGLE Case AREA-->
+      <div class="col-sm-3 col-xs-12 pointer" routerLink="/accesspoint">
+        <div class="single_case text-center">
+          <img src="assets/img/service-5.png" alt="">
+          <h4 class="single_case_text">Patient Portal <br> </h4>
+        </div>
+      </div>
+      <!--/END SINGLE Case AREA-->
+      <!--START SINGLE Case AREA-->
+      <div class="col-sm-3 col-xs-12 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+          <div class="single_case text-center active_case">
+            <app-news></app-news>
+            <h4 class="single_case_text">Latest News <br> </h4>
+          </div>
+        </div>
+        <!--/END SINGLE Case AREA-->
     </div>
   </div>
   </section>

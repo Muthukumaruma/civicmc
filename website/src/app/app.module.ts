@@ -7,7 +7,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
-import { DataService } from './data.service';
 import { HomeComponent } from './home/home.component';
 import { NewsComponent } from './news/news.component';
 import { UICarouselModule } from "ui-carousel";
@@ -25,6 +24,11 @@ import { AccesspointComponent } from './accesspoint/accesspoint.component';
 import { PaymentComponent } from './payment/payment.component';
 import { PatienteduComponent } from './patientedu/patientedu.component';
 import { ImmunizationsComponent } from './immunizations/immunizations.component';
+import { InsuranceComponent } from './insurance/insurance.component';
+import { TermsCondtionComponent } from './terms-condtion/terms-condtion.component';
+import { ImmunizationComponent } from './immunization/immunization.component';
+import { CarbohydratesComponent } from './carbohydrates/carbohydrates.component';
+import { SafehtmlPipe } from './safehtml.pipe';
 
 
 
@@ -48,7 +52,12 @@ import { ImmunizationsComponent } from './immunizations/immunizations.component'
     AccesspointComponent,
     PaymentComponent,
     PatienteduComponent,
-    ImmunizationsComponent
+    ImmunizationsComponent,
+    InsuranceComponent,
+    TermsCondtionComponent,
+    ImmunizationComponent,
+    CarbohydratesComponent,
+    SafehtmlPipe
     
     
   ],
@@ -58,7 +67,7 @@ import { ImmunizationsComponent } from './immunizations/immunizations.component'
     HttpClientModule,
     UICarouselModule,
   ],
-  providers: [DataService],
+  providers: [],
   bootstrap: [AppComponent],
   
 })

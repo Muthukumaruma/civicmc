@@ -15,6 +15,10 @@ import { AccesspointComponent } from './accesspoint/accesspoint.component';
 import { PaymentComponent } from './payment/payment.component';
 import { PatienteduComponent } from './patientedu/patientedu.component';
 import { ImmunizationsComponent } from './immunizations/immunizations.component';
+import { InsuranceComponent } from './insurance/insurance.component';
+import { TermsCondtionComponent } from './terms-condtion/terms-condtion.component';
+import { ImmunizationComponent } from './immunization/immunization.component';
+import { CarbohydratesComponent } from './carbohydrates/carbohydrates.component';
 
 const routes: Routes = [
   {
@@ -28,6 +32,22 @@ const routes: Routes = [
   {
     path:"services",
     component: MedservicesComponent
+  },
+  {
+    path:"carbhohydrates",
+    component: CarbohydratesComponent
+  },
+  {
+    path:"immunizations",
+    component: ImmunizationComponent
+  },
+  {
+    path:"terms",
+    component: TermsCondtionComponent
+  },
+  {
+    path:"insurance",
+    component: InsuranceComponent
   },
   {
     path:"patient-education",
