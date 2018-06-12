@@ -1,0 +1,40 @@
+{
+    "links":[
+        {
+            "id":"1",
+            "title":"Home Page",
+            "path":"/home"
+        },
+        {
+            "id":"2",
+            "title":"Meet Our Medical Team",
+            "path":"/team"
+        },
+        {
+            "id":"3",
+            "title":"Medical Services",
+            "path":"/services"
+        },
+        {
+            "id":"4",
+            "title":"Patient Center",
+            "path":"/patientcenter"
+        },
+        {
+            "id":"5",
+            "title":"Contact Us",
+            "path":"/contact"
+        },
+        {
+            "id":"6",
+            "title":"News",
+            "path":"/news"
+        },
+        {
+            "id":"7",
+            "title":"Terms and conditions",
+            "path":"/terms"
+        }
+        
+    ]
+}
