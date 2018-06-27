@@ -15,6 +15,8 @@ export class NewsdetailComponent implements OnInit {
 
   newsid:any;
 
+  newsData:any
+
   constructor(private route: ActivatedRoute, private http:HttpClient) {
     
     this.route.params.subscribe(params => {this.newsid = params.id})
@@ -27,8 +29,12 @@ export class NewsdetailComponent implements OnInit {
     
   }
 
+  ngOnDestroy(){
+    this.newsData.unsubscribe();
+  }
+
   getDetail(){
-    this.http.get("./data/news.json").subscribe(data =>{
+    this.newsData = this.http.get("./data/news.json").subscribe(data =>{
       this.newsdata = data;
       
       for (let i = 0; i < this.newsdata.news.length; i++) {

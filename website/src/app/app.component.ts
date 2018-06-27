@@ -12,13 +12,18 @@ export class AppComponent {
   constructor(private router: Router) { }
 
   title = 'CIVIC Medical Center';
+  nav:any
 
   ngOnInit() {
-    this.router.events.subscribe((evt) => {
+    this.nav = this.router.events.subscribe((evt) => {
         if (!(evt instanceof NavigationEnd)) {
             return;
         }
         window.scrollTo(0, 0)
     });
+  }
+
+  ngOnDestroy(){
+    this.nav.unsubscribe();
   }
 }

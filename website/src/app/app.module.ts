@@ -10,7 +10,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { NewsComponent } from './news/news.component';
-import { UICarouselModule } from "ui-carousel";
+import { UICarouselModule } from "ng-carousel-iuno";
 import { NewsdetailComponent } from './news/newsdetail/newsdetail.component';
 import { MedservicesComponent } from './medservices/medservices.component';
 import { ServicedetailComponent } from './medservices/servicedetail/servicedetail.component';
