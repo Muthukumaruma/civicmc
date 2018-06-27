@@ -3,28 +3,33 @@
       <div class="comment-form wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
           <h3>If this is an emergency please dial 911 instead of sending an email.</h3>
           <h4 class="text-success">For non-emergency communications, send us an email</h4>
-          <form method="post" action="sendemail.php">
+          <div   *ngIf="!submited">
             <div class="row">
               <div class="form-group col-sm-6">
-                <input required="" type="text" placeholder="Your hare" id="first-name" name="name" class="form-control">
+                <input required="" [(ngModel)]= "name" type="text" placeholder="Your name here" id="first-name" name="name" class="form-control">
               </div>
               <div class="form-group col-sm-6">
-                <input required="" type="email" placeholder="Email hare" class="form-control" name="email">
+                <input required="" [(ngModel)]="email" type="email" placeholder="Email here" class="form-control" name="email">
               </div>
               <div class="form-group col-sm-6">
-                <input required="" type="text" placeholder="Phone hare" id="phone" name="phone" class="form-control">
+                <input required="" [(ngModel)]="phone" type="text" placeholder="Phone here" id="phone" name="phone" class="form-control">
               </div>
               <div class="form-group col-sm-6">
-                <input required="" type="text" placeholder="Subject hare" class="form-control" name="address">
+                <input required="" [(ngModel)]="subject" type="text" placeholder="Subject here" class="form-control" name="address">
               </div>
               <div class="form-group col-sm-12 col-xs-12">
-                <textarea required="" placeholder="Your massage here" name="message" class="form-control"></textarea>
+                <textarea required="" [(ngModel)]="comments" placeholder="Your massage here" name="message" class="form-control"></textarea>
               </div>
               <div class="col-sm-12 col-xs-12 comment_button">
-                <button type="submit" class="submit_btn hvr-bounce-to-bottom">SEND NOW<i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                <button  (click)="onSubmit()" class="submit_btn hvr-bounce-to-bottom">SEND NOW<i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
               </div>
             </div>
-          </form>
+          </div>
+          <div class="success text-center " *ngIf="submited">
+              <h1 class="text-success icon"><i class="fa fa-check-circle-o"></i> </h1>
+            <h1 class="text-success">Your message sent Successfully!</h1>
+            <p>We will contact you as soon as posible</p>
+          </div>
         </div>
   </div>
   <div class="col-md-4">

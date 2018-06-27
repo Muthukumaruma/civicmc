@@ -23,8 +23,4 @@ export class InsuranceComponent implements OnInit {
     
   }
 
-  ngOnDestroy() {
-      this.List.unsubscribe(); // <-------
-  }
-
 }

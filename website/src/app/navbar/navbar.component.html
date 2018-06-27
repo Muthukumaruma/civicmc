@@ -11,10 +11,16 @@
         <a >{{navData.address}}</a>
         </span>
       </div>
-      <div class="col-md-6 col-sm-5 topheader_right">
+      <div class="col-md-6 col-sm-5 topheader_right hidden-sm hidden-xs">
         <a a routerLink="/appoinment"><i class="fa fa-clock-o" aria-hidden="true"></i> Book an Appointment</a>
         <a routerLink="/accesspoint"><i class="fa fa-globe " aria-hidden="true"></i> Access Patient Portal</a>
         <a routerLink="/payment"><i class="fa fa-credit-card  " aria-hidden="true"></i> Online Bill Pay</a>
+
+      </div>
+      <div class="col-md-6 col-sm-5 topheader_right hidden-md hidden-lg">
+        <a a routerLink="/appoinment"><i class="fa fa-clock-o" aria-hidden="true"></i>  <p>Appointment</p></a>
+        <a routerLink="/accesspoint"><i class="fa fa-globe " aria-hidden="true"></i> <p>Patient Portal</p></a>
+        <a routerLink="/payment"><i class="fa fa-credit-card  " aria-hidden="true"></i> <p>Pay bill</p></a>
 
       </div>
     </div>
@@ -29,8 +35,8 @@
       <div class="col-sm-4 brand_logo">
         <a routerLink="/">
           <h3>{{navData.doctor}}</h3>
-          <div class="subtitle"><strong>{{navData.appName}} </strong></div>
-          <div class="subtitle">Internal Medicine</div>
+          <div class="subtitle"><strong>Internal Medicine</strong></div>
+          <div class="subtitle">{{navData.appName}} </div>
         </a>
       </div>
       <div class="col-sm-8 main_menu">
@@ -47,7 +53,7 @@
           <ul class="nav navbar-nav">
             <li [ngClass]="{'active':activeRoute==='home'}"><a routerLink="/">Home</a></li>
             <li><a routerLink="/services">Medical Services</a></li>
-            <li><a routerLink="/team">Meet Our Medical Team</a></li>
+            <li><a routerLink="/team">Medical Team</a></li>
             <li><a routerLink="/patientcenter">Patient Center</a></li>
             <li><a routerLink="/location">Location</a></li>
             <li><a routerLink="/contact">Contact Us</a></li>
