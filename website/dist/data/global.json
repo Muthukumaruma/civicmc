@@ -1,0 +1,11 @@
+{
+    "appName":"Civic Medical center",
+    "address":"2147 Mowry Avenue, Suite D4, Fremont, CA 94538 ",
+    "phone":"(510) 574-0800",
+    "fax":" Fax: (510) 574-0850",
+    "doctor":"Dr. Bala Annadurai, MD",
+    "email":"info@civicmc.com",
+    "mainmenu":["Home", "Medical service", "Meet our"],
+    "extramenu":["Privicey", "sitemap"]
+
+}

@@ -1319,14 +1319,17 @@ a {
 .blog_content {
   border-radius: 4px;
   bottom: 0;
-  height: 98px;
+  height: 77px;
   left: 0;
-  margin-top: -98px;
+  margin-top: -77px;
   padding-left: 33px;
   position: relative;
   top: auto;
   width: 100%;
   z-index: 1;
+  p{
+    color: #fff;
+  }
   &:before {
     background: hsl(0, 0%, 13%) none repeat scroll 0 0;
     content: "";

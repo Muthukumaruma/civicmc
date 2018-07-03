@@ -1,0 +1,1014 @@
+/*Medium Layout : 1280px */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    
+.main_menu ul li a, .main_menu ul li i {
+  margin-left: 0px;
+}
+.s-search i {
+  right: 12px;
+}
+.slider_area h1 {
+  font-size: 45px;
+}
+.submit_btn {
+  right: 78px;
+}
+.cta_text > h2 {
+  font-size: 28px;
+}
+.offer_area h1 {
+  font-size: 30px;
+}
+.single_plan {
+  width: 315px;
+}
+.single_plan > img {
+  margin-right: 10px;
+}
+.single_plan > h3 {
+  font-size: 11px;
+}
+.single_plan > p {
+  font-size: 12px;
+  line-height: 20px;
+}
+.row.case_information > a {
+  font-size: 10px;
+}
+.blog_content > h4 {
+  font-size: 12px;
+  line-height: 26px;
+}
+    
+    
+    
+}
+
+
+/* Tablet Layout : 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.brand_logo img {
+  margin-top: 24px;
+  width: 110%;
+}
+.main_menu ul li a,
+.main_menu ul li i {
+    margin-left: -12px;
+}
+.main_menu ul li a, .main_menu ul li i {
+  padding: 34px 10px;
+}
+.main_menu li ul li a {
+  margin-left: 10px;
+}
+.s-search i {
+  right: 5px;
+}
+.menu_button {
+  margin-left: 0px;
+  margin-top: 20px;
+  padding: 10px 0;
+  width: 155px;
+}
+.menu_button a {
+  font-size: 11px;
+}
+    
+.slider_area h1 {
+  font-size: 29px;
+  line-height: 41px;
+}
+.slider_area p {
+  font-size: 12px;
+}
+.banner_image > img {
+  width: 100%;
+}    
+.slider {
+    height: 400px;
+}
+.check_seo_area h1 {
+  font-size: 27px;
+  width: 100%;
+}
+.check_seo_area .form-control {
+  width: 90%;
+}
+.submit_btn {
+  right: 54px;
+}
+.section_title > p {
+    width: 70%;
+}
+.offer_area h1 {
+  font-size: 18px;
+  line-height: 30px;
+}
+.offer_area p {
+  font-size: 13px;
+}
+.offer_area_full {
+  height: 430px;
+}
+.offer_text {
+  margin-top: 0;
+}
+.single_case.text-center > h4 {
+  font-size: 13px;
+}
+.single_case.text-center span {
+  font-size: 13px;
+}
+.testimonial_content.text-center > p {
+  font-size: 14px;
+  line-height: 30px;
+}
+.pricing-head h2 {
+  font-size: 35px;
+}
+.single_blog h4 {
+  font-size: 10px;
+}
+.blog_content {
+  padding-left: 8px;
+}
+.single_widget > h3 {
+  font-size: 14px;
+}
+.cta_text > h2 {
+  font-size: 24px;
+  margin-top: 25px;
+}
+.single_member {
+  margin-bottom: 55px;
+}
+.awesome-team-member {
+  margin-bottom: -37px;
+  margin-top: -43px;
+  padding-bottom: 0;
+}
+.about-us-area {
+  margin-bottom: 70px;
+  margin-top: 60px;
+}
+.about-us-right > h3 {
+  font-size: 19px;
+}
+ .about-us-right > p {
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 10px;
+  width: 92%;
+}
+    .about-us-left > h3 {
+  font-size: 22px;
+  margin-top: 25px;
+}
+    .about-us-left > p {
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 10px;
+}
+    .about-us-right {
+  margin-left: 27px;
+}
+  .about-us-bottom {
+  margin-top: 20px;
+}
+.about-us-bottom > p {
+  font-size: 10px;
+  line-height: 20px;
+}
+    .about-us-bottom i {
+  font-size: 12px;
+  margin-right: 10px;
+}
+.nav-tabs li.single_tab a {
+  margin-right: 70px;
+  width: 270px;
+  margin-left: 0px;
+}
+.single_plan {
+  width: 365px;
+  margin-bottom: 20px;
+}
+.single_plan > img {
+  margin-right: 13px;
+  padding: 27px 20px;
+}
+.single_plan.plan_two > img {
+  padding: 25px 24px;
+}
+.case_details_laft h1 {
+  margin-top: 37px;
+}
+.testimonial_area_page {
+  margin-top: 60px;
+}
+.cta_area.testimonial_cta_area {
+  margin-top: 30px;
+}
+.faq_full_area {
+  margin-bottom: 45px;
+  margin-top: 50px;
+}
+ 
+    
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+  
+.navbar-toggle .icon-bar {
+  background-color: #ffb72f;
+}
+.menu_button {
+  display: none;
+}
+.main_menu li ul li a:hover{
+    color: #fff !important;
+}
+    
+.topheader_left a {
+        font-size: 11px;
+    }
+.topheader_left span {
+  margin-right: 5px;
+}
+.navbar-header {
+margin-top: -40px;
+}
+
+.slider_area h1 {
+  font-size: 30px;
+  line-height: 40px;
+}
+.button {
+  margin-top: 15px;
+}
+.banner_image > img {
+ display: none;
+  margin-top: 30px;
+  width: 100%;
+}   
+.check_seo_area .form-control {
+  width: 95%;
+}
+.check_seo_area {
+  height: 270px;
+}
+.check_seo_area h1 {
+  font-size: 18px;
+  line-height: 30px;
+  width: 98%;
+}
+.form_area {
+  margin-top: 17px;
+}
+.submit_btn {
+  letter-spacing: 1px;
+  margin-top: 10px;
+  position: inherit;
+  right: 0;
+  width: 95%;
+}
+.offer_area h1 {
+  font-size: 21px;
+  line-height: 32px;
+}
+.offer_text {
+  margin-left: 0;
+  margin-top: 30px;
+}
+.offer_image > img {
+  width: 75%;
+}
+.offer_image {
+  margin-top: -21px;
+  text-align: center;
+}
+.offer_area p {
+  font-size: 13px;
+  line-height: 25px;
+  padding: 1px 0;
+}
+.offer_area_full {
+  height: 575px;
+}
+.owl-wrapper {
+  text-align: center;
+}
+.testimonial_content.text-center > p {
+  font-size: 13px;
+  line-height: 25px;
+  margin: 50px auto 0;
+  width: 95%;
+}
+.testimonial_area {
+  margin-top: 20px;
+}
+.single-pricing-box {
+  margin-bottom: 25px;
+}
+.blog_content {
+  padding-left: 8px;
+}
+.single_blog h4 {
+  font-size: 14px;
+}
+.single_blog {
+  margin-bottom: 25px;
+}
+.blogpost_area {
+  padding-bottom: 20px;
+}
+.single_widget > h3 {
+  margin-top: 20px;
+}
+.footer_area {
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
+.footer_area {
+  margin-bottom: 40px;
+}
+    
+.about-title-area {
+  margin-top: 1px;
+}
+    .about-title-area > h1 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+    .about-title-area > p {
+  font-size: 10px;
+}
+.title-area {
+  min-height: 100px;
+}
+    .about-us-area {
+  margin-bottom: 17px;
+  margin-top: 17px;
+}
+    .about-us-left > h3 {
+  font-size: 20px;
+  margin-top: 25px;
+}
+    .about-us-right {
+  margin-left: 0px;
+}
+    .about-us-right > h3 {
+  color: #222222;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+    .about-us-bottom {
+  margin-top: 25px;
+}
+.about-us-bottom > p {
+  font-size: 9px;
+  line-height: 16px;
+}
+    .about-us-bottom i {
+  font-size: 11px;
+  margin-right: 4px;
+}
+    .awesome-team-member-top > h1 {
+  font-size: 25px;
+}
+    .awesome-team-member-top > p {
+  width: 96%;
+}
+    .awesome-team-member-title > p {
+  padding: 1px 25px 12px 30px;
+}
+    .awesome-team-member-title > h3 {
+  padding: 85px 1px 1px 30px;
+}
+.awesome-team-member {
+  margin-top: -100px;
+  padding-bottom: 18px;
+}
+.single_member {
+  margin-bottom: 60px;
+}
+.awesome-team-member {
+  margin-top: -100px;
+  padding-bottom: 0;
+  margin-bottom: -40px;
+}
+    
+.topheader_right {
+        text-align: center;
+    }
+    .s-search i {
+        font-size: 15px;
+        right: 10px;
+        top: -36px;
+    }
+    .s-search i:hover {
+        font-size: 15px;
+        right: 10px;
+        top: -36px;
+    }
+    .navbar {
+        border: medium none;
+        margin-bottom: 0px;
+    }
+    .navbar {
+        min-height: 1px;
+    }
+    .main_menu {
+        margin-bottom: 0px;
+    }
+    .main_menu ul li {
+        float: none;
+    }
+    .main_menu ul li a:hover {
+        color: #fff;
+    }
+
+    .main_menu ul.nav.navbar-nav li.active a:after {
+        display: none;
+    }
+    .navbar-toggle {
+        padding: 6px 35px;
+    }
+    .ss-close {
+        top: 50px;
+    }
+    .ssc-inner {
+        height: 90vh;
+        width: 80%;
+    }
+    .ssc-inner form input {
+        font-size: 19px;
+        font-weight: 700;
+    }
+    .ssc-inner form button {
+        margin-top: 63px;
+        right: -15px;
+    }
+    .navbar-collapse {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+.menubar_area {
+  padding: 10px 0 0;
+  position: relative;
+  z-index: 999;
+}
+    .header-x.pull-right {
+        height: 5px;
+    }
+    .slider {
+        height: 100%;
+        width: 100%;
+    }
+    .slider_area p {
+        font-size: 14px;
+        line-height: 25px;
+        padding: 0;
+    }
+    .fullslider_area {
+        height: 100%;
+    }
+    .carousel-indicators {
+        bottom: -8px;
+    }
+    .video_icon.text-right {
+        margin-top: -20px;
+    }
+    .button {
+        border-radius: 2px;
+        padding: 7px 0;
+        width: 160px;
+    }
+    .fullslider_area {
+        height: 400px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .slider {
+	margin-top: 0px;
+}
+    .main_slider {
+	margin-top: 0px;
+}
+    .aboutleft_text {
+        left: 17%;
+        top: 58px;
+        width: 200px;
+    }
+    .about_right_full {
+        display: inline-block;
+        margin-top: 130px;
+        overflow: hidden;
+    }
+    .about_area {
+        margin-top: 50px;
+    }
+    .about_right > h3 {
+        font-size: 20px;
+    }
+    .service_area {
+        margin-top: -35px;
+    }
+    .section_title > p {
+        line-height: 25px;
+        margin: -8px auto 35px;
+        width: 100%;
+    }
+    .section_title h2 {
+        font-size: 24px;
+    }
+    .single_service h4 {
+        font-size: 18px;
+        line-height: 25px;
+        padding-top: 1px;
+    }
+    .single_service > a {
+        margin-bottom: 40px;
+        display: inline-block;
+    }
+    .cta_area {
+        margin: 20px 0 48px;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .cta_text > h2 {
+        font-size: 23px;
+        line-height: 38px;
+        margin-top: -12px;
+    }
+    .cta_btn {
+        float: none;
+        height: 45px;
+        margin-top: 2px;
+        width: 160px;
+    }
+    .cta_btn > a {
+        margin-top: 2px;
+    }
+    .choose_right {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .choose_right > h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+    .section_title h2 {
+        font-size: 18px;
+    }
+    .client_thub > img {
+        width: auto;
+    }
+    .testimonial_content > span {
+        margin-bottom: 32px;
+        display: inline-block;
+    }
+    .left-control.carousel-control {
+        top: 83%;
+        left: 33%;
+    }
+    .right-control.carousel-control {
+        right: 38%;
+        top: 83%;
+    }
+    .left-control i,
+    .right-control i {
+        padding: 6px 10px;
+    }
+    .blogpost_area {
+        margin-top: -68px !important;
+    }
+.blogpost_area.single_blog_page {
+  margin-top: 40px !important;
+}
+    .post_meta span.date {
+        margin-left: 5px;
+    }
+    .learn_more {
+        font-size: 14px;
+        margin-bottom: 40px;
+        display: inline-block;
+    }
+    .sponsors_area {
+        margin: 30px 0;
+        padding: 25px 0;
+    }
+    .footer_area {
+        margin-bottom: 0px;
+    }
+    .copyright_area {
+        padding: 19px 0;
+        text-align: center;
+    }
+    .text-right {
+        text-align: center;
+    }
+    .copyright_area p {
+        margin: 0;
+    }
+.tab_content > img {
+  float: none;
+  margin-right: 0;
+  width: 100%;
+}
+.service_details_area {
+  margin-top: 35px;
+}
+.tab_content h1 {
+  margin-bottom: 20px;
+}
+.nav-tabs li.single_tab a {
+  margin-left: -4px;
+}
+.single_plan {
+  height: 130px;
+  margin-bottom: 20px;
+  width: 295px;
+}
+.single_plan > img {
+  margin-right: 14px;
+  padding: 37px 27px;
+}
+.single_plan > h3 {
+  font-size: 13px;
+}    
+.single_plan > p {
+  font-size: 14px;
+  line-height: 23px;
+}
+.single_plan.plan_two > img {
+  padding: 35px 30px;
+}
+.pricing_table_padding {
+  margin-top: -104px;
+}
+.case_details_area {
+  margin-top: 50px;
+}
+.case_details_laft h1 {
+  font-size: 18px;
+  margin-top: 40px;
+}
+.case_information > a {
+  font-size: 65%;
+}
+.case_information {
+  margin-left: 0;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+.team_page {
+  margin-top: 45px;
+}
+.testimonial_area_page {
+  margin-top: 40px;
+}
+.cta_area.testimonial_cta_area {
+  margin-top: 10px;
+}
+    
+    
+/**************************************************************************
+****BLOG PAGE CSS******************************************************
+***************************************************************************/   
+    
+.single_blog.page_post {
+  margin-top: 0px;
+}
+.post_pagination {
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+.blog-content-area {
+  padding-top: 50px;
+}
+.blog-details h2 {
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 30px;
+}
+.post_share_tag > p {
+  background: hsl(0, 0%, 100%) none repeat scroll 0 0;
+  border-radius: 0;
+  padding: 0;
+}
+.blog-details > p {
+  margin-top: 10px;
+}
+.post_share_tag span {
+  float: left;
+}
+.comments-info > h4 {
+  font-size: 12px;
+}
+.comments-info span {
+  font-size: 12px;
+}
+.comments-info .fa.fa-reply-all {
+  font-size: 12px;
+}
+.comments-info i.fa {
+  margin-right: 3px;
+}
+.comments-info h5 {
+  font-size: 11px;
+}
+.comments-info p {
+  font-size: 12px;
+}
+.comment_button {
+  margin-bottom: 50px;
+  margin-top: 5px;
+}
+.blog-categories {
+  margin-top: -25px;
+}
+.blog-tags {
+  margin-top: -25px;
+  padding-bottom: 50px;
+}
+.openjobs_area {
+  margin-top: 20px;
+}
+.single_job > h2 {
+  font-size: 18px;
+  margin-top: 3px;
+}
+.single_job h4 {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.single_job {
+  padding-bottom: 13px;
+  margin-bottom: 25px;
+}
+.open_jobs_load_more {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.single_job_full h2 {
+  font-size: 16px;
+}
+.jobsdetails_area {
+  margin-top: 40px;
+}
+.discription_area > h3 {
+  font-size: 16px;
+}
+.primary_area > h3 {
+  font-size: 16px;
+}
+.fa.fa-check-circle-o {
+  font-size: 12px;
+  margin-right: 4px;
+}
+.primary_area h5 {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 25px;
+}
+.job_details_button_area a {
+  height: 45px;
+  margin-right: 10px;
+  margin-top: 8px;
+  padding-top: 11px;
+  text-align: center;
+  width: 135px;
+}
+.col-md-5.full_job_info_area {
+  padding: 25px 1px 25px 15px;
+  width: 100%;
+  margin-top: 50px;
+}
+.job_info_area p b {
+  font-size: 10px;
+  font-weight: 300;
+}
+.job_info_area > p {
+  font-size: 10px;
+  font-weight: 300;
+}
+.col-sm-7.col-xs-7.job_info_area {
+  width: 54.333%;
+}
+
+.faq_full_area {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.job_marfin_left.single_job_full {
+  padding-left: 15px;
+}
+.panel-heading .panel-title a[data-toggle="collapse"] {
+  font-size: 14px;
+  line-height: 20px;
+  padding-right: 50px;
+}
+.job_marfin_left .primary_area h5 {
+  font-size: 15px;
+}
+.comment-form h3 {
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+}
+.contact_address > h1 {
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+}
+.head_office > h3 {
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+}
+.contact_address {
+  margin-bottom: 55px;
+}
+.error_page > h1 {
+  font-size: 100px;
+}
+.error_page > h3 {
+  font-size: 19px;
+  padding: 10px 0;
+}
+.error_box input {
+  width: 260px;
+}
+.error_page {
+    margin-top: 50px;
+}
+.main_menu li ul {
+  left: 86px;
+  top: -33px !important;
+  width: 300px !important;
+}
+.main_menu ul li a, .main_menu ul li i {
+  padding: 10px 14px;
+}
+.brand_logo img {
+  margin-top: 0;
+}
+.single_widget.important_link {
+  padding-left: 15px;
+}
+.single_widget.Contact_widget {
+  padding-left: 15px;
+}
+.location_information {
+  margin-left: -5px;
+  width: 296px;
+}
+.blog-content-area.section-padding.contact_page {
+  margin-top: 0px;
+}
+.nav.nav-tabs.faq_menu_title a {
+  font-size: 12px;
+  margin: 4px 5px 10px;
+  width: 132px;
+}
+.nav.nav-tabs.faq_menu_title {
+  border: medium none;
+  margin: 0 auto 79px;
+  width: 300px;
+}
+.panel-heading .panel-title a[data-toggle="collapse"] {
+  font-size: 12px !important;
+  padding-right: 1px !important;
+  padding-top: 6px !important;
+}
+.not_found_page {
+  margin-top: 50px;
+}
+.footer_area.not_found_page_bg {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 13px;
+  padding-top: 50px;
+}
+    
+    
+    
+    
+    
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+    
+    .topheader_left {
+        text-align: center;
+    }
+    .topheader_left a {
+        font-size: 13px;
+    }
+    .topheader_right a i {
+        font-size: 13px;
+    }
+.banner_image {
+  text-align: center;
+}
+.banner_image > img {
+  width: 70%;
+}
+.check_seo_area h1 {
+  width: 100%;
+}
+.single_service > p {
+  margin: 0 auto;
+  width: 94%;
+}
+.cta_area {
+  padding: 48px 0;
+}
+.offer_image > img {
+  width: 50%;
+}
+.offer_area_full {
+  height: 490px;
+}
+.sponsors_area {
+  margin-bottom: -60px;
+}
+.blog_content {
+  padding-left: 25px;
+}
+.single_blog h4 {
+  font-size: 17px;
+}
+.nav-tabs li.single_tab a {
+  width: 420px;
+}
+.aboutleft_text {
+    left: 12%;
+    top: 66px;
+    width: 201px;
+}
+.cta_text > h2 {
+    font-size: 19px;
+}
+.choose_left {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.post_meta span.date {
+    margin-left: 20px;
+}
+.copyright > p {
+    padding: 10px 0;
+}
+.project_area {
+  text-align: center;
+}
+.job_info_area p b {
+  font-size: 13px;
+}
+.job_info_area > p {
+  font-size: 13px;
+}
+.single_plan {
+  width: 416px;
+}
+.nav.nav-tabs.faq_menu_title a {
+  font-size: 11px;
+  height: 45px;
+  margin: 4px 6px 10px;
+  width: 95%;
+}
+.nav.nav-tabs.faq_menu_title {
+  border: medium none;
+  margin: 0 auto 10px;
+  width: 100%;
+}
+
+    
+    
+    
+    
+    
+}
